@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+  
+nav {
+    width: 600px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: bold;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+}
+  
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.header-bottom {
+    padding: 5px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.npm-img {
+    width: 4%;
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+    padding: 10px 10px 10px 40px;
+    color: rgba(0,0,0,.05);
+    background-image: url(../lab-html-exercise/images/magnifying-glass.png);
+    background-position: 7px 7px;
+    background-repeat:  no-repeat;
+    background-size: 20px 20px;
+    background-color: rgba(0,0,0,.05);
+    flex-grow: 1;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.searchbar > form , .header-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.searchbar > form {
+    overflow: visible;
+}
+
+form {  
+    flex-grow: 1;
+}
+
+button {
+    border: none;
+    margin: 10px;
+    padding: 5px 20px;
+    font-family: 'Poppins';
+}
+
+button[type="submit"] {
+    background-color: #fb3e44;
+    color: white;
+    margin: auto 0;
+    height: 35px;
+    margin: 0 20px 0 0;
+    
+}
+
+#build, #bring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600 px;
+}
+
+#build {
+    background-color: rgba(232,217,217,.3);
+}
+
+#build > article {
+    width: 500px;
+    font-size: 1.25rem;
+}
+
+.build-buttons > button {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 15px 70px;
+  margin: 40px 20px;
+}
+
+.header-bottom > div > .join {
+    border: 1px solid black;
+}
+
+.join {
+    background-color: white;
+}
+
+h1 { 
+    font-weight: bold;
+    font-size: 5.5em;
+}
+
+#bring > article {
+    width: 600px;
+}
+
+#bring > img {
+    width: 250px;
+    margin: 45px auto;
+}
+
+#bring > h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    margin: 15px 60px;
+    padding: 0 40px;
+}
+
+#bring > article, #build > article {
+    text-align: center;
+}
+
+#plans {
+    background-color: #fb3b49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+#joint {
+    background-color: rgba(232,217,217,.3) ;
+}
+
+/*Useful information*:
+- *form label color*: rgba(0,0,0,.05)
+- *form input color*: rgba(0,0,0,.05)
+- *form button background color*: #fb3e44
+- *form button letters color*: white */
+
+/* .search-img {
+    width: 15px;
+    height: 15px;
+}
+
