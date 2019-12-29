@@ -94,7 +94,6 @@ button {
 button[type="submit"] {
     background-color: #fb3e44;
     color: white;
-    margin: auto 0;
     height: 35px;
     margin: 0 20px 0 0;
     
@@ -170,14 +169,42 @@ h1 {
     background-color: rgba(232,217,217,.3) ;
 }
 
-/*Useful information*:
-- *form label color*: rgba(0,0,0,.05)
-- *form input color*: rgba(0,0,0,.05)
-- *form button background color*: #fb3e44
-- *form button letters color*: white */
+#create {
+    margin: 100px 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-/* .search-img {
-    width: 15px;
-    height: 15px;
+.create-articles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.create-articles article {
+    font-size: 1.2em;
+    padding: 0 15px 20px 15px;
+    width: 20%;
+}
+
+.article-icon {
+    width: 35px;
+    margin: 10px;
+}
+
+h3 {
+    color: #ed1c24;
+    font-size: 1em;
+    margin: 0;
+}
+
+#create button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 15px 170px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    justify-self: center;
 }
 
